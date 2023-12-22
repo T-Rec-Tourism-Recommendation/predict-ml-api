@@ -16,9 +16,8 @@ There are several steps to deploy the machine learning models:
    python app.py .
 
 
-##Docomentation
 
-## Rekomendasi
+## Use API
 
 **********************************Endpoint: /recommendation**********************************
 
