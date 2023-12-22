@@ -23,7 +23,7 @@ There are several steps to deploy the machine learning models:
 
 **Method:** POST
 
-**Description:** Melihat data hasil rekomendasi dan menfilter berdasarkan kota
+**Description:** send json request as a text and give response prediction
 
 **Example request and response rekomendasi**
 
