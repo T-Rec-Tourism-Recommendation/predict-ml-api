@@ -3,7 +3,7 @@
 <p>This is a repo built by the machine-learning team for ML-API deployment.</p>
 
 ## Basic URL
-https://predict-ml-api-im2d257paa-et.a.run.app/
+https://api-ml-trec-im2d257paa-et.a.run.app/
 
 ## Usage
 There are several steps to deploy the machine learning models:
@@ -14,3 +14,33 @@ There are several steps to deploy the machine learning models:
 3. Make sure the .h5 model is in the same folder as app.py
 4. Run:
    python app.py .
+
+
+##Docomentation
+
+## Rekomendasi
+
+**********************************Endpoint: /recommendation**********************************
+
+**Method:** POST
+
+**Description:** Melihat data hasil rekomendasi dan menfilter berdasarkan kota
+
+**Example request and response rekomendasi**
+
+Endpoint : POST https://api-ml-trec-im2d257paa-et.a.run.app/predict_text (request JSON)
+
+```
+{
+    "text": "saya ingin pergi ke tempat wisata yang dekat dengan alam, karena saya ingin melihat banyak pemandangan yang menyejukkan mata"
+}
+```
+
+**Example Response:**
+
+```json
+{
+    "prediction": "Cagar Alam"
+}
+```
+
